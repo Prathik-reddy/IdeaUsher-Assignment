@@ -158,6 +158,4 @@ contract Election {
         emit VoteCast(msg.sender, _candidateId);
         return true;
     }
-
-
 }
